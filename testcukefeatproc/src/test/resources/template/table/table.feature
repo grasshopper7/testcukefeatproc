@@ -6,7 +6,7 @@ Feature: Orders
 
   Scenario: 
     And Process given datatable
-      | Data: | src/test/resources/data/excel/excelone.xlsx | Sheet1 | A1:C2 | retriever.ExcelTransposeDataRetriever |
+      | Data: | src/test/resources/data/excel/excelone.xlsx | Sheet1 | A1:C2 | retriever.excel.ExcelTransposeDataRetriever |
 
   Scenario: 
     And Process given datatable
@@ -14,7 +14,7 @@ Feature: Orders
 
   Scenario: 
     And Process given datatable
-      | Data: | src/test/resources/data/json/jsonone.json | data1 | retriever.JsonExplodedDataRetriever |
+      | Data: | src/test/resources/data/json/jsonone.json | data1 | retriever.json.JsonExplodedDataRetriever |
 
   Scenario: 
     And Process given datatable
@@ -30,7 +30,7 @@ Feature: Orders
 
   Scenario: 
     And Process given datatable
-      | Data: | retriever.ProgramSimpleDataRetriever.java | getTableData |
+      | Data: | retriever.program.ProgramSimpleDataRetriever.java | getTableData |
 
   Scenario: 
     And Process given datatable

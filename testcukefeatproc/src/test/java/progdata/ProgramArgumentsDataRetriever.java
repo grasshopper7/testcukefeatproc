@@ -3,7 +3,7 @@ package progdata;
 import java.util.ArrayList;
 import java.util.List;
 
-import retriever.ProgramDataRetriever;
+import retriever.program.ProgramDataRetriever;
 
 public class ProgramArgumentsDataRetriever {
 

@@ -1,0 +1,32 @@
+{
+	"data1":[
+		{
+			"field" : "name",
+			"how" : "id",
+			"using" : "display-name"
+		},
+		{
+			"field" : "email",
+			"how" : "ID",
+			"using" : "email"
+		},
+		{
+			"field" : "password",
+			"how" : "Id",
+			"using" : "password"
+		}
+	],
+	"data2":[
+		{
+			"field" : "name",
+			"how" : "id",
+			"using" : "display-name"
+		},
+		{
+			"field" : "password",
+			"how" : "Id",
+			"using" : "password"
+		}
+	]
+	
+}

@@ -30,7 +30,7 @@ Feature: Orders
 
   Scenario: 
     And Process given datatable
-      | Data: | retriever.program.ProgramSimpleDataRetriever.java | getTableData |
+      | Data: | progdata.ProgramSimpleDataRetriever.java | getTableData |
 
   Scenario: 
     And Process given datatable

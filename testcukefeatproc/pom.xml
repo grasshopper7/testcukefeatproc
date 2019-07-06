@@ -51,16 +51,16 @@
 				<version>1.6.0</version>
 				<executions>
 					<execution>
-						<!-- This is setup for data from Java file. 
-						UNCOMMENT as per info below for  data from excel, json, text files-->
-						
-						<!--UNCOMMENT below 2 lines for data from excel, json, text files-->
-						<!-- <id>generate-test-resources-execution</id> 
-						<phase>generate-test-resources</phase> -->
+						<!-- This is setup for data from excel, json, text files. 
+						UNCOMMENT as per info below for data from Java file -->
 						
 						<!--COMMENT below 2 lines for data from excel, json, text files-->
-						<id>process-test-classes-execution</id>
-						<phase>process-test-classes</phase>
+						<id>generate-test-resources-execution</id> 
+						<phase>generate-test-resources</phase>
+						
+						<!--UNCOMMENT below 2 lines for data from Java file-->
+						<!-- <id>process-test-classes-execution</id>
+						<phase>process-test-classes</phase> -->
 						
 						<goals>
 							<goal>java</goal>
@@ -72,10 +72,10 @@
 								<argument>src/test/resources/feature/</argument>
 							</arguments>
 							
-							<!--COMMENT below 3 lines for data from excel, json, text files-->
-							<additionalClasspathElements>
+							<!--UNCOMMENT below 2 lines for data from Java file-->
+							<!-- <additionalClasspathElements>
 								<additionalClasspathElement>${project.basedir}\target\test-classes</additionalClasspathElement>
-							</additionalClasspathElements>
+							</additionalClasspathElements> -->
 						</configuration>
 					</execution>
 				</executions>

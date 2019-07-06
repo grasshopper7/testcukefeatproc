@@ -28,10 +28,11 @@ Feature: Orders
     And Process given datatable
       | Data: | src/test/resources/data/text/texttwo.txt ||
 
-  Scenario: 
-    And Process given datatable
-      | Data: | progdata.ProgramSimpleDataRetriever.java | getTableData |
+#UNCOMMENT below 2 scenarios for data in Java file
+  #Scenario: 
+  #  And Process given datatable
+  #    | Data: | progdata.ProgramSimpleDataRetriever.java | getTableData |
 
-  Scenario: 
-    And Process given datatable
-      | Data: | progdata.ProgramArgumentsDataRetriever.java | getChangedTableData | Before | After |
+  #Scenario: 
+  #  And Process given datatable
+  #    | Data: | progdata.ProgramArgumentsDataRetriever.java | getChangedTableData | Before | After |
